@@ -1,0 +1,48 @@
+.* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-size: 12px;
+	background-color: #DAECEE;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #FFF;
+}
+#header {
+	background-image: url("img/bg2.jpg");
+	background-repeat: repeat-x;
+	height: 150px;
+}
+#footer {
+	background-image: url("img/footerbg.png");
+	height: 150px;
+}
+
+#header h1 {
+	text-align: center;
+	font-size: 60px;
+	line-height: 150px;
+	color: #2E4C1F;
+}
+#footer h1 {
+	text-align: bottom;
+	font-size: 20px;
+	line-height: 180px;
+	color: #2E4C1F;
+}
+
+
+#footer {
+	text-align: center;
+	paadding: 20px;
+}
+#bn {
+    border: 5px solid #1F252C ;
+
+
+    cursor: hand;
+    border-radius: 25px;
+}

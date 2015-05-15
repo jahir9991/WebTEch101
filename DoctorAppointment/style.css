@@ -1,0 +1,98 @@
+
+body{
+    /*background: url("img/body2.jpg") right no-repeat fixed ;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    /*color:#898989;*/
+    /*padding-bottom: 20px;*/
+}
+#left
+    {
+    background: url(img/note.jpg) no-repeat left fixed;
+
+    }
+
+#menu
+{
+    height: 52px;
+    width: 700px;
+    /*padding-left: 50px;*/
+    background: url(img/menu.gif) no-repeat  ;
+    /*margin-left: 30px;*/
+    margin-bottom: 20px;
+}
+
+#menu ul li{
+    list-style: none;
+    display: inline;
+}
+
+#menu a
+{
+    display: block;
+    padding: 10px;
+    float: left;
+    height: 42px;
+    color: #ffffff;
+}
+
+#menu a:hover
+{
+    display: block;
+    padding: 10px;
+    height: 42px;
+    float: left;
+    color: #ffffff;
+    background: url(img/menu_r.gif) repeat-x;
+}
+
+#main
+{
+    float: left;
+    border: 5px solid #ffffff;
+    width:430px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+
+}
+#header {
+
+background: url(img/bannar.jpg) no-repeat;
+	height: 150px;
+    width: 800px;
+}
+#footer {
+
+	height: 150px;
+}
+
+#header h1 {
+	text-align: center;
+	font-size: 60px;
+	line-height: 150px;
+	color: #2E4C1F;
+}
+#footer h1 {
+	/*text-align: bottom;*/
+	/*font-size: 20px;*/
+	line-height: 180px;
+	color: #2E4C1F;
+}
+
+
+#footer {
+	text-align: center;
+	paadding: 20px;
+    vertical-align: bottom;
+}
+#bn {
+    border: 5px solid #1F252C ;
+
+
+    cursor: hand;
+    border-radius: 25px;
+}
